@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="bucket_normal">#2EFFFFFF</color>
+    <color name="bucket_text_bg">#FFFFD732</color>
+    <color name="alert_dialog">#FF2E2E2E</color>
+    <color name="bucket_text">#D6FFFFFF</color>
+    <color name="bucket_text_changr">#D6000000</color>
+    <color name="transpareny">#00000000</color>
+    <color name="bucket_text_full">#3D000000</color>
+    <color name="battery_power_low">#FFFF7C6B</color>
+</resources>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/update_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/bj"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/show_message_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="36dp"
+        android:gravity="center"
+        android:text="Setup Maintenance"
+        android:textColor="#FFFFFFFF"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/tview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/wifiButton"
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="100dp"
+                android:layout_weight="1"
+                android:background="#33ffffff"
+                android:text="wifi"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/openBoxButton"
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_weight="1"
+                android:background="#33ffffff"
+                android:text="open_slot"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="22sp" />
+            <Button
+                android:id="@+id/open_query"
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_weight="1"
+                android:background="#33ffffff"
+                android:text="open/query"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/fanButton"
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_weight="1"
+                android:background="@drawable/bucket_border_subup"
+                android:text="fan"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/lightButton"
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_weight="1"
+                android:background="@drawable/bucket_border_subup"
+                android:text="lighting"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="22sp" />
+            <Button
+                android:id="@+id/quitButton"
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_weight="1"
+                android:textColor="@color/design_default_color_background"                android:text="quit"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="10dp">
+            <com.example.android.test.Test_FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:layout_marginStart="93dp"
+                android:tag="1" />
+            <com.example.android.test.Test_FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:tag="2" />
+            <com.example.android.test.Test_FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:tag="3" />
+            <com.example.android.test.Test_FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:tag="4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <com.example.android.test.Test_FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:layout_marginStart="93dp"
+                android:layout_weight="1"
+                android:tag="5" />
+
+            <com.example.android.test.Test_FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:tag="6" />
+            <com.example.android.test.Test_FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:tag="7" />
+            <com.example.android.test.Test_FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:tag="8" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/main_ver"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/left_border"
+            android:gravity="left|center_vertical"
+            android:text="main control:initing...waiting..."
+            android:textColor="#FFFFFFFF"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/sub_ver"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/right_border"
+            android:gravity="left|center_vertical"
+            android:text="sub control:initing...waiting..."
+            android:textColor="#FFFFFFFF"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/main_temp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/left_border"
+            android:gravity="left|center_vertical"
+            android:text="temperature:initing...waiting..."
+            android:textColor="#FFFFFFFF"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/mac"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/right_border"
+            android:gravity="left|center_vertical"
+            android:text="MAC:initing...waiting..."
+            android:textColor="#FFFFFFFF"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/devid"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/left_border"
+            android:gravity="left|center_vertical"
+            android:text="devID::initing...waiting..."
+            android:textColor="#FFFFFFFF"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</LinearLayout>

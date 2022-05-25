@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 最上层渐变色  下间距-->
+    <item android:bottom="90dp">
+        <shape android:shape="rectangle" >
+            <!-- 设置背景填充色 -->
+            <solid android:color="@color/bucket_normal" />
+            <!--部分圆角-->
+            <corners
+                android:topLeftRadius="18dp"
+                android:topRightRadius="18dp"
+                android:bottomRightRadius="0dp"
+                android:bottomLeftRadius="0dp"/>
+        </shape>
+    </item>
+
+    <!--最底层绿色 左右间距-->
+    <item android:top="80dp">
+        <shape android:shape="rectangle">
+            <!--部分圆角-->
+            <corners
+                android:bottomLeftRadius="18dp"
+                android:bottomRightRadius="18dp"
+                android:topLeftRadius="0dp"
+                android:topRightRadius="0dp" />
+
+            <gradient
+                android:startColor="#FFA500"
+                android:centerColor="#FFD900"
+                android:type="linear"
+                android:angle="90"
+                android:centerX="1"
+                android:centerY="1" />
+        </shape>
+    </item>
+</layer-list>

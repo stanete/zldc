@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dev_number_tev"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="编号CMDR202000000001"
+                android:textColor="#99FFFFFF"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/signup_but"
+                android:layout_width="48dp"
+                android:layout_height="22dp"
+                android:background="@drawable/signup_border"
+                android:gravity="center"
+                android:text="注册"
+                android:textColor="#99FFFFFF"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/change_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/full_number_tev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp"
+                android:text="0"
+                android:textColor="#FF43D48C"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="满电"
+                android:textColor="#D6FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/charging_number_tev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="6dp"
+                android:text="0"
+                android:textColor="#FFFFDB66"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="充电中"
+                android:textColor="#D6FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/empty_number_tev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="6dp"
+                android:text="0"
+                android:textColor="#FFFFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空仓"
+                android:textColor="#D6FFFFFF"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center|right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/wifi_btn"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="7dp"
+                android:background="@drawable/wifinot" />
+
+            <TextView
+                android:id="@+id/fan_tev"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:background="@drawable/fan"/>
+            <TextView
+                android:id="@+id/light_tev"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:background="@drawable/light_on"/>
+            <TextView
+                android:id="@+id/temp_tev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="10dp"
+                android:text="充电器仓25℃"
+                android:textColor="#99FFFFFF"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
